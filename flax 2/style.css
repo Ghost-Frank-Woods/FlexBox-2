@@ -1,0 +1,42 @@
+
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+html{
+    font : 500 small-caps 15px/2.8 "Vazir";
+    /* font-family: "Vazir"; */
+
+}
+.nav:hover{
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.nav-bar,a{
+    display: flex;
+    /* width: 100%;
+    height: 10vh; */
+    /* background-color: darkslategrey; */
+    text-decoration: none;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+}
+.nav{
+    display:flex;
+    margin: 10px;
+    padding:10px;
+
+}
+.nav-continer{
+    display: flex;
+    background: url(./image.jpg)  border-box 0 40%/cover ;
+    /* width: 100%;
+    height: 10vh; */
+    /* background-color: darkslategrey; */
+    flex-direction: row;
+    justify-content: flex-start;
+/* width: 990px;
+height: 10vh; */
+}
+
+  
